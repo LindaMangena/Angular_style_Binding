@@ -9,5 +9,6 @@ export class AppComponent {
   title = 'Style Binding';
   public hasError = false;
   public isSpecial = true;
+  public highlight_color = "orange";
 
 }
