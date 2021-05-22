@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,5 +11,9 @@ export class AppComponent {
   public hasError = false;
   public isSpecial = true;
   public highlight_color = "orange";
+  public titleStyles ={
+    color : "blue",
+    fontStyle :"italic"
 
+  }
 }
