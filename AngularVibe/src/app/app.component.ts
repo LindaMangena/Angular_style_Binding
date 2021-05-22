@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularVibe';
+  title = 'Style Binding';
+  public hasError = false;
+  public isSpecial = true;
+
 }
